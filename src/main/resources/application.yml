@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: guard-demo
+
+server:
+  port: 9010
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    org.springframework.security.oauth2: TRACE
